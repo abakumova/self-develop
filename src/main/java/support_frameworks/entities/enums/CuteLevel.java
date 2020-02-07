@@ -1,6 +1,6 @@
 package support_frameworks.entities.enums;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.StringUtils;
 
 public enum CuteLevel {
     SMALL_DOG,
@@ -9,7 +9,8 @@ public enum CuteLevel {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this)
-                .toString();
+        String s = StringUtils.replaceChars(super.name(), '_', ' ');
+        s = StringUtils.lowerCase(s);
+        return StringUtils.capitalize(s);
     }
 }

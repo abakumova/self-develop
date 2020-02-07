@@ -6,5 +6,4 @@ public class PropertyHolder {
 
     public static Cute cute = ConfigFactory.create(Cute.class);
     public static Calories calories = ConfigFactory.create(Calories.class);
-
 }

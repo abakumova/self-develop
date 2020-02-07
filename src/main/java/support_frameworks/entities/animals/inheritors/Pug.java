@@ -52,7 +52,6 @@ public class Pug extends Animal {
     }
 
     public void eatFood(EatCharacteristic eatCharacteristic, Feed dailyFood) {
-        //Feed dailyFood = getFeed();
         if (dailyFood.getWeight() == 0.0) {
             logger.warn("Pug is concerned about the lack of food");
             return;
