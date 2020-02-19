@@ -6,6 +6,7 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.util.Objects;
 
+//@EqualsAndHashCode(doNotUseGetters = true) @ToString(exclude = "calorie")
 public class Feed {
 
     private String title;
