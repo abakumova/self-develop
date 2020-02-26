@@ -1,4 +1,4 @@
-package support_frameworks.entities.food;
+package support_frameworks.food;
 
 import lombok.Getter;
 import lombok.Setter;

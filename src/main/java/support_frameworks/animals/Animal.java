@@ -1,4 +1,4 @@
-package support_frameworks.entities.animals;
+package support_frameworks.animals;
 
 import lombok.*;
 

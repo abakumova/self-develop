@@ -1,4 +1,4 @@
-package support_frameworks.entities.enums;
+package support_frameworks.enums;
 
 public enum DogPosition {
     LYING,

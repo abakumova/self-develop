@@ -1,9 +1,9 @@
-package support_frameworks.entities.food;
+package support_frameworks.food;
 
 import lombok.Builder;
 import lombok.Getter;
-import support_frameworks.entities.enums.DayPart;
-import support_frameworks.entities.enums.DogPosition;
+import support_frameworks.enums.DayPart;
+import support_frameworks.enums.DogPosition;
 
 @Getter
 @Builder(builderClassName = "FoodCollector", builderMethodName = "createCharacteristic")

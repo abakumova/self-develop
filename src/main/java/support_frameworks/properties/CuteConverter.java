@@ -1,7 +1,7 @@
-package support_frameworks.entities.properties;
+package support_frameworks.properties;
 
 import org.aeonbits.owner.Converter;
-import support_frameworks.entities.enums.CuteLevel;
+import support_frameworks.enums.CuteLevel;
 
 import java.lang.reflect.Method;
 

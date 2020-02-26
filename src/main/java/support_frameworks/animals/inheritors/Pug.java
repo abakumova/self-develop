@@ -1,14 +1,14 @@
-package support_frameworks.entities.animals.inheritors;
+package support_frameworks.animals.inheritors;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;
-import support_frameworks.entities.animals.Animal;
-import support_frameworks.entities.enums.CuteLevel;
-import support_frameworks.entities.food.EatCharacteristic;
-import support_frameworks.entities.food.Feed;
-import support_frameworks.entities.humans.Owner;
+import support_frameworks.animals.Animal;
+import support_frameworks.enums.CuteLevel;
+import support_frameworks.food.EatCharacteristic;
+import support_frameworks.food.Feed;
+import support_frameworks.humans.Owner;
 
 import java.util.Objects;
 

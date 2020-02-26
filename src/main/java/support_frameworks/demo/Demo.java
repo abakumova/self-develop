@@ -1,14 +1,14 @@
-package support_frameworks.entities.demo;
+package support_frameworks.demo;
 
 import lombok.Cleanup;
-import support_frameworks.entities.animals.inheritors.Pug;
-import support_frameworks.entities.enums.CuteLevel;
-import support_frameworks.entities.enums.DayPart;
-import support_frameworks.entities.enums.DogPosition;
-import support_frameworks.entities.food.EatCharacteristic;
-import support_frameworks.entities.food.Feed;
-import support_frameworks.entities.humans.Owner;
-import support_frameworks.entities.properties.PropertyHolder;
+import support_frameworks.animals.inheritors.Pug;
+import support_frameworks.enums.CuteLevel;
+import support_frameworks.enums.DayPart;
+import support_frameworks.enums.DogPosition;
+import support_frameworks.food.EatCharacteristic;
+import support_frameworks.food.Feed;
+import support_frameworks.humans.Owner;
+import support_frameworks.properties.PropertyHolder;
 
 public class Demo {
 

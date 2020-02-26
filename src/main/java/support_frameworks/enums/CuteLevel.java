@@ -1,4 +1,4 @@
-package support_frameworks.entities.enums;
+package support_frameworks.enums;
 
 import org.apache.commons.lang3.StringUtils;
 

@@ -1,4 +1,4 @@
-package support_frameworks.entities.properties;
+package support_frameworks.properties;
 
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.Config.Sources;

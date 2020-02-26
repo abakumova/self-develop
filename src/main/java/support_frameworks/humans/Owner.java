@@ -1,4 +1,4 @@
-package support_frameworks.entities.humans;
+package support_frameworks.humans;
 
 import lombok.Data;
 
