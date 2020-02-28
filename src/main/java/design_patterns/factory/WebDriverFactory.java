@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class WebDriverFactory {
 
-    WebDriver newWebDriver() {
+    public WebDriver newWebDriver() {
         SupportedBrowsers browser = ConfigFactory.create(Browsers.class).getBrowser();
         switch (browser.toString()) {
             case "REMOTE_CHROME":

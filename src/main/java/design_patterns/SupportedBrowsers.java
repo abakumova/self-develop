@@ -10,16 +10,19 @@ import org.openqa.selenium.WebDriver;
 @Getter
 public enum SupportedBrowsers {
     REMOTE_CHROME(new RemoteChromeInvoker()) {
+        @Override
         public WebDriver getWebDriver() {
             return new RemoteChromeInvoker().invokeWebDriver();
         }
     },
     REMOTE_FIREFOX(new RemoteFirefoxInvoker()) {
+        @Override
         public WebDriver getWebDriver() {
             return new RemoteFirefoxInvoker().invokeWebDriver();
         }
     },
     LOCAL_CHROME(new LocalChromeInvoker()) {
+        @Override
         public WebDriver getWebDriver() {
             return new LocalChromeInvoker().invokeWebDriver();
         }
@@ -28,7 +31,5 @@ public enum SupportedBrowsers {
     SupportedBrowsers(WebDriverInvoker webDriverInvoker) {
     }
 
-    public WebDriver getWebDriver() {
-        return null;
-    }
+    public abstract WebDriver getWebDriver();
 }
