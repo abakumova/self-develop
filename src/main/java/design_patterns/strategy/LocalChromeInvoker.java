@@ -1,13 +1,14 @@
 package design_patterns.strategy;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LocalChromeInvoker implements WebDriverInvoker {
 
-    private static final ThreadLocal<WebDriver> DRIVER_INSTANCES = new ThreadLocal<>();
-
     @Override
     public WebDriver invokeWebDriver() {
-        return DRIVER_INSTANCES.get();
+        WebDriverManager.chromedriver().setup();
+        return new ChromeDriver();
     }
 }

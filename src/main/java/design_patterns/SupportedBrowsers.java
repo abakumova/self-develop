@@ -28,7 +28,10 @@ public enum SupportedBrowsers {
         }
     };
 
+    WebDriverInvoker webDriverInvoker;
+
     SupportedBrowsers(WebDriverInvoker webDriverInvoker) {
+        this.webDriverInvoker = webDriverInvoker;
     }
 
     public abstract WebDriver getWebDriver();
