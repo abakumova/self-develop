@@ -1,7 +1,6 @@
 package xml
 
 import groovy.xml.StreamingMarkupBuilder
-import groovy.xml.XmlSlurper
 
 def inFile = new File('../xml/fells_loop.gpx')
 println inFile.exists()
